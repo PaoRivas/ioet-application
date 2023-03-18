@@ -1,0 +1,19 @@
+{
+  "name": "ioetexercise",
+  "version": "1.0.0",
+  "description": "Application to know how many times employees have been at the office within the same time frame",
+  "scripts": {
+    "test": "test",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaoRivas/ioet-application.git"
+  },
+  "author": "Paola Rivas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaoRivas/ioet-application/issues"
+  },
+  "homepage": "https://github.com/PaoRivas/ioet-application#readme"
+}
