@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Application to know how many times employees have been at the office within the same time frame",
   "scripts": {
-    "test": "test",
-    "start": "node src/index.js"
+    "test": "jest",
+    "start": "node src"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/PaoRivas/ioet-application/issues"
   },
-  "homepage": "https://github.com/PaoRivas/ioet-application#readme"
+  "homepage": "https://github.com/PaoRivas/ioet-application#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "jest": {
+    "moduleFileExtensions": ["js", "jsx"],
+    "moduleDirectories": ["node_modules", "bower_components", "src"]
+  }
 }
